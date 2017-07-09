@@ -3,9 +3,9 @@ Created on Jul 8, 2017
 
 @author: malachi
 '''
-def countPrimes (n):
-    x = collections.Counter(n)
-    return x.values()
+#def countPrimes (n):
+    #x = collections.Counter(n)
+#    return x.values()
 
 def divisors(n):
     a=1
@@ -47,11 +47,11 @@ def prime_factors(n):
     return factors 
     
 def fib(self, number):
-  if number==1:
-      return 1
-  if number==2:
-      return 2
-  return self.fib(number-2) + self.fib(number-1)
+    if number==1:
+        return 1
+    if number==2:
+        return 2
+    return self.fib(number-2) + self.fib(number-1)
 
 def fibSeq(n):
     index = 1
